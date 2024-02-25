@@ -1,6 +1,6 @@
 const list = document.getElementsByTagName('li');
 let scoretext = document.getElementsByTagName('h2');
-let logtext = document.getElementsByTagName('h3');
+// let logtext = document.getElementsByTagName('h3');
 let flag = true;
 let clicked = false;
 let score = 0;
@@ -119,7 +119,7 @@ for (var i = 0; i < list.length; i++) {
             console.log(scoretext.innerHTML);
             flag = Number(this.value);
 
-            logtext[0].innerHTML = sheets;
+            // logtext[0].innerHTML = sheets;
 
             if (flag) {
                 this.style.backgroundImage = 'url(../img/photo_02.jpg)';
