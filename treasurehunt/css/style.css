@@ -71,7 +71,7 @@ h3 {
     color: #fff;
 }
 
-#timer{
+#timer {
     width: 30%;
     display: flex;
     font-size: 24px;
@@ -114,5 +114,12 @@ li.hide {
 
     to {
         opacity: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    li {
+        height: 50px;
+        width: 50px;
     }
 }
